@@ -1,0 +1,37 @@
+{
+  "name": "foodtrove",
+  "version": "1.0.0",
+  "description": "Shop Online FoodTrove",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaoPhamThu/-ATN_FoodTrove.git"
+  },
+  "author": "Pham Thu Thao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThaoPhamThu/-ATN_FoodTrove/issues"
+  },
+  "homepage": "https://github.com/ThaoPhamThu/-ATN_FoodTrove#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "cloudinary": "1.23.0",
+    "cookie-parser": "1.4.5",
+    "dotenv": "^16.4.5",
+    "express": "4.17.1",
+    "joy": "^0.1.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.10.16",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "6.4.16",
+    "nodemon": "2.0.6",
+    "stripe": "8.128.0",
+    "validator": "13.1.17"
+  }
+}
