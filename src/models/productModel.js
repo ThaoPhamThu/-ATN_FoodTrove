@@ -1,27 +1,45 @@
 const mongoose = require('mongoose')
 
 const productSchema = new mongoose.Schema({
-    name: {
+    nameProduct: {
         type: String,
         required: [true, 'Tên sản phẩm không được để trống'],
         trim: true,
         maxLength: [100, 'Tên sản phẩm không được vượt quá 100 ký tự']
     },
-    price: {
+    titleProduct: {
+        type: String,
+        required: [true, 'Tiêu đề sản phẩm không được để trống'],
+    },
+    priceProduct: {
         type: Number,
         required: [true, 'Giá không được để trống'],
         maxLength: [7, 'Giá không được vượt quá 7 ký tự'],
         default: 0.0
     },
-    description: {
+    saleProduct: {
+        type: Number,
+    },
+    finalPriceProduct: {
+        type: Number,
+    },
+    descriptionProduct: {
         type: String,
         required: [true, 'Mô tả không được để trống'],
     },
-    ratings: {
+    brandProduct: {
+        type: String,
+        required: [true, 'Thương hiệu không được để trống'],
+    },
+    weightProduct: {
+        type: String,
+        required: [true, 'Trọng lượng không được để trống'],
+    },
+    ratingsProduct: {
         type: Number,
         default: 0
     },
-    images: [
+    imagesProduct: [
         {
             public_id: {
                 type: String,
@@ -38,15 +56,18 @@ const productSchema = new mongoose.Schema({
         required: [true, 'Vui lòng chọn danh mục cho sản phẩm này'],
         enum: {
             values: [
-                "Cake",
-                "Vagetables",
+                "Dairy & Bakery",
+                "Fruits & Vegetable",
+                "Snack & Spice",
+                "Juice & Drinks",
+                "Chicken & Meat",
+                "Fast Food"
             ],
             message: 'Vui lòng chọn đúng danh mục cho sản phẩm'
         }
     },
-    stock: {
+    productSold: {
         type: Number,
-        required: [true, 'Số lượng không được để trống'],
         maxLength: [5, 'Số lượng không được vượt quá 5 ký tự'],
         default: 0
     },

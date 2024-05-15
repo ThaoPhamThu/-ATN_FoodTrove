@@ -3,6 +3,7 @@ const validator = require('validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
+const { type } = require('os');
 require('dotenv').config();
 
 const userSchema = new mongoose.Schema({
@@ -20,8 +21,13 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: [true, 'Mật khẩu không được để trống'],
-        minlength: [6, 'Mật khẩu của bạn phải dài hơn 6 ký tự'],
+        minLength: [6, 'Mật khẩu của bạn phải dài hơn 6 ký tự'],
         select: false
+    },
+    phoneNumber: {
+        type: Number,
+        required: [true, 'Số điện thoại không được để trống'],
+        minLength: [10, 'Số điện thoại không đúng'],
     },
     avatar: {
         public_id: {

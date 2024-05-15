@@ -4,14 +4,13 @@ require('dotenv').config();
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const path = require('path');
-
+const cors = require('cors');
 const errorMiddleware = require('./middlewares/errors');
-const cloudinary = require('cloudinary').v2;
 const products = require('./routes/productRoute');
-const auth = require('./routes/authRoute');
+const auth = require('./routes/userRoute');
 const payment = require('./routes/paymentRoute');
 const order = require('./routes/orderRoute');
-const upload = require('./routes/uploadFile');
+const email = require('./routes/emailRoute');
 
 const app = express();
 const port = process.env.PORT || 8080;
@@ -26,30 +25,29 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //Config Cookie
 app.use(cookieParser());
 
-// // Setting up cloudinary configuration
-// cloudinary.config({
-//     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-//     api_key: process.env.CLOUDINARY_API_KEY,
-//     api_secret: process.env.CLOUDINARY_API_SECRET
-// });
-
-//congig file upload
-// app.use(fileUpload());
-
 // Import all routes
 app.use('/api/v1', products);
 app.use('/api/v1', auth);
 app.use('/api/v1', payment);
 app.use('/api/v1', order);
-app.use('/api/v1', upload);
+app.use('api/v1', email);
 
-if (process.env.NODE_ENV === 'PRODUCTION') {
-    app.use(express.static(path.join(__dirname, '../frontend/build')))
+// app.use(cors());
+// app.options('*', cors());
 
-    app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, '../frontend/build/index.html'))
-    })
-};
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '../frontend/build')));
+  
+    app.get('*', (req, res) =>
+      res.sendFile(
+        path.resolve(__dirname, '..', 'frontend', 'build', 'index.html')
+      )
+    );
+  } else {
+    app.get('/', (req, res) => {
+      res.send('200');
+    });
+  }
 
 
 // Middleware to handle errors

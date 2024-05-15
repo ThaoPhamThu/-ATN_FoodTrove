@@ -34,7 +34,7 @@ const orderSchema = mongoose.Schema({
                 type: String,
                 required: true
             },
-            quantity: {
+            amount: {
                 type: Number,
                 required: true
             },
@@ -53,18 +53,18 @@ const orderSchema = mongoose.Schema({
             }
         }
     ],
-    paymentInfo: {
-        id: {
-            type: String
-        },
-        status: {
-            type: String
-        }
+    paymentMethod: {
+            type: String,
+            required: [true, 'Vui lòng chọn phương thức thanh toán'],
+            enum: {
+                values: [
+                    'Thanh toán khi nhận hàng',
+                    'Thanh toán bằng VNPay',
+                ],
+                message: 'Vui lòng chọn đúng phương thức thanh toán'
+            
+            },
     },
-    paidAt: {
-        type: Date
-    },
-
     itemsPrice: {
         type: Number,
         required: true,

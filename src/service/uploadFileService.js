@@ -1,16 +1,18 @@
 const cloudinary = require('../config/cloudinary') ;
 
-const uploadAvatar = async (file) => {
+const uploadImages = async (images) => {
     try {
-        const uploadFile = [];
+        const uploadImages = [];
+        for (let image of images) {
+            const results = await cloudinary.uploader.upload(image);
 
-        const result = await cloudinary.uploader.upload(file);
-        uploadFile.push({
-            url: result.secure_url,
-            publicId: result.public_id
-        });
+            uploadImages.push({
+                url: results.secure_url,
+                public_id: results.public_id
+            })
+        }
 
-        return uploadFile;
+        return uploadImages;
 
     } catch(error) {
         return {
@@ -18,8 +20,19 @@ const uploadAvatar = async (file) => {
             error: JSON.stringify(error)
         }
     }
-}
+};
 
-module.exports = {
-    uploadAvatar,
-}
+const removeImage = async (public_id) => {
+    try {
+        const result = await cloudinary.uploader.destroy(public_id);
+        return result;
+
+    } catch(error) {
+        return {
+            status: 'failes',
+            error: JSON.stringify(error)
+        }
+    }
+};
+
+module.exports =  {uploadImages, removeImage}
