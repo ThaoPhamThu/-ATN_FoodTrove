@@ -1,33 +1,31 @@
 const mongoose = require('mongoose')
 
 const productSchema = new mongoose.Schema({
-    nameProduct: {
-        type: String,
-        required: [true, 'Tên sản phẩm không được để trống'],
-        trim: true,
-        maxLength: [100, 'Tên sản phẩm không được vượt quá 100 ký tự']
-    },
     titleProduct: {
         type: String,
-        required: [true, 'Tiêu đề sản phẩm không được để trống'],
+        required: true,
+        trim: true
     },
-    priceProduct: {
+    subTitle: {
+        type: String,
+        required: true,
+    },
+    price: {
         type: Number,
         required: [true, 'Giá không được để trống'],
-        maxLength: [7, 'Giá không được vượt quá 7 ký tự'],
-        default: 0.0
     },
     saleProduct: {
         type: Number,
+        required: [true, 'Sale không được để trống'],
     },
-    finalPriceProduct: {
+    finalprice: {
         type: Number,
     },
     descriptionProduct: {
         type: String,
         required: [true, 'Mô tả không được để trống'],
     },
-    brandProduct: {
+    brand: {
         type: String,
         required: [true, 'Thương hiệu không được để trống'],
     },
@@ -39,36 +37,15 @@ const productSchema = new mongoose.Schema({
         type: Number,
         default: 0
     },
-    imagesProduct: [
-        {
-            public_id: {
-                type: String,
-                required: true
-            },
-            url: {
-                type: String,
-                required: true
-            },
-        }
-    ],
-    category: {
-        type: String,
-        required: [true, 'Vui lòng chọn danh mục cho sản phẩm này'],
-        enum: {
-            values: [
-                "Dairy & Bakery",
-                "Fruits & Vegetable",
-                "Snack & Spice",
-                "Juice & Drinks",
-                "Chicken & Meat",
-                "Fast Food"
-            ],
-            message: 'Vui lòng chọn đúng danh mục cho sản phẩm'
-        }
+    slug: String,
+    imagesProduct: Array,
+    category: String,
+    stock: {
+        type: Number,
+        required: [true, 'Stock không được để trống'],
     },
     productSold: {
         type: Number,
-        maxLength: [5, 'Số lượng không được vượt quá 5 ký tự'],
         default: 0
     },
     numOfReviews: {
@@ -79,11 +56,7 @@ const productSchema = new mongoose.Schema({
         {
             user: {
                 type: mongoose.Schema.ObjectId,
-                ref: 'User',
-                required: true
-            },
-            name: {
-                type: String,
+                ref: 'user',
                 required: true
             },
             rating: {
@@ -93,7 +66,8 @@ const productSchema = new mongoose.Schema({
             comment: {
                 type: String,
                 required: true
-            }
+            },
+            updatedAt: { type: Date }
         }
     ],
     user: {
@@ -101,10 +75,9 @@ const productSchema = new mongoose.Schema({
         ref: 'User',
         required: true
     },
-    createdAt: {
-        type: Date,
-        default: Date.now
-    }
-})
+},
+    {
+        timestamps: true
+    })
 const Product = mongoose.model('product', productSchema);
 module.exports = Product;

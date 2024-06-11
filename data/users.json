@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "role": "admin",
+  "name": "admin",
+  "email": "foodtroveshop@gmail.com",
+  "password": "$2a$10$W211JI32fYmfkwMPvfvvhukpdGxx5PHiLx442DRPkYiodQ78z2nJG",
+  "phoneNumber": 981982917,
+  "avatar": "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716296143/eqvl5uzhwfjo7cwbemu5.jpg",
+  "cart": [],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-05-21T12:55:44.183Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T12:55:44.183Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c9a1c91f370270415c29a"
+  },
+  "role": "user",
+  "name": "Phạm Thu Thảo",
+  "email": "phamthuthao13a22014.2015@gmail.com",
+  "password": "$2a$10$Oou4k1pKHYnunK1V9aMRWO4xLh8TVneIeR6HdG54jwzxTKsVg8OF.",
+  "phoneNumber": 981982917,
+  "avatar": "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716296219/r35ccusctdev7sjovpze.jpg",
+  "cart": [],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-05-21T12:57:00.273Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T12:57:00.273Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ed060cbc9b25ab8595911"
+  },
+  "role": "user",
+  "name": "Son",
+  "email": "son@gmail.com",
+  "password": "$2a$10$Nshdj6wlhMkizPMM3gRfGOFG1B4BRUL1A326/Tidf4mGrCu6KiMym",
+  "phoneNumber": 243657,
+  "cart": [],
+  "isBlocked": false,
+  "createdAt": {
+    "$date": "2024-05-23T05:13:04.958Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-23T05:13:04.958Z"
+  },
+  "__v": 0
+}]

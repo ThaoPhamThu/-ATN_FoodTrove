@@ -1,32 +1,41 @@
 const Order = require('../models/orderModel');
 const Product = require('../models/productModel');
+const User = require('../models/userModel');
 
 const ErrorHandler = require('../utils/errorHandler');
 const catchAsyncErrors = require('../middlewares/catchAsyncErrors');
+const { sendMailCreateOrder } = require('../service/emailService');
 
 const newOrder = catchAsyncErrors(async (req, res, next) => {
+    const { _id } = req.user;
+    const userCart = await User.findById(_id).select('cart').populate('cart.product', 'nameProduct finalprice imagesProduct');
+    const orderItems = userCart?.cart?.map(el => ({
+        product: el.product._id,
+        quantity: el.quantity,
+        price: el.price
+    }));
+    const itemsPrice = orderItems.reduce((sum, el) => el.price * el.quantity + sum, 0)
     const {
-        orderItems,
         shippingInfo,
-        itemsPrice,
-        taxPrice,
         shippingPrice,
-        totalPrice,
-        paymentMethod,
-        email
+        paymentMethod
     } = req.body;
-
+    const totalPrice = itemsPrice + shippingPrice;
     const order = await Order.create({
-        orderItems,
         shippingInfo,
-        itemsPrice,
-        taxPrice,
         shippingPrice,
-        totalPrice,
         paymentMethod,
+        orderItems,
+        itemsPrice,
+        totalPrice,
         paidAt: Date.now(),
-        user: req.user._id
+        user: req.user.id
     });
+    const userOrder = req.user.email;
+
+    if (order) {
+        await sendMailCreateOrder(userOrder);
+    }
 
     res.status(200).json({
         success: true,
@@ -34,8 +43,9 @@ const newOrder = catchAsyncErrors(async (req, res, next) => {
     })
 });
 
+
 const getOrderDetail = catchAsyncErrors(async (req, res, next) => {
-    const order = await Order.findById(req.query.id).populate('user', 'name email')
+    const order = await Order.findById(req.params.id).populate('user', 'name email')
 
     if (!order) {
         return next(new ErrorHandler('Không tìm thấy đơn hàng nào có ID này', 404))
@@ -48,7 +58,8 @@ const getOrderDetail = catchAsyncErrors(async (req, res, next) => {
 });
 
 const myOrders = catchAsyncErrors(async (req, res, next) => {
-    const orders = await Order.find({ user: req.user.id })
+    const { _id } = req.user;
+    const orders = await Order.find({ orderBy: _id });
 
     res.status(200).json({
         success: true,
@@ -59,36 +70,36 @@ const myOrders = catchAsyncErrors(async (req, res, next) => {
 const allOrders = catchAsyncErrors(async (req, res, next) => {
     const orders = await Order.find()
 
-    let totalAmount = 0;
+    let totalquantity = 0;
 
     orders.forEach(order => {
-        totalAmount += order.totalPrice
+        totalquantity += order.itemsPrice;
     })
 
     res.status(200).json({
         success: true,
-        totalAmount,
+        totalquantity,
         orders
     })
 });
 
-async function updateProductSold(id, amount) {
+async function updateProductSold(id, quantity) {
     const product = await Product.findById(id);
 
-    product.productSold += amount;
+    product.productSold += quantity;
 
     await product.save({ validateBeforeSave: false })
 }
 
 const updateOrder = catchAsyncErrors(async (req, res, next) => {
-    const order = await Order.findById(req.query.id)
+    const order = await Order.findById(req.params.id)
 
     if (order.orderStatus === 'Đã giao hàng') {
         return next(new ErrorHandler('Bạn đã giao đơn đặt hàng này', 400))
     }
 
     order.orderItems.forEach(async item => {
-        await updateProductSold(item.product.id, item.amount)
+        await updateProductSold(item.product.id, item.quantity)
     })
 
     order.orderStatus = req.body.status;
@@ -127,4 +138,4 @@ const getMonthlyIncome = async (req, res, next) => {
     }
 };
 
-module.exports = {newOrder, getOrderDetail, myOrders, allOrders, updateOrder, getMonthlyIncome}
+module.exports = { newOrder, getOrderDetail, myOrders, allOrders, updateOrder, getMonthlyIncome }

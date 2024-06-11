@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "664c2143c3236e5d44cb717b"
+  },
+  "title": "Dairy & Bakery",
+  "slug": "dairy-bakery",
+  "createdAt": {
+    "$date": "2024-05-21T04:21:23.132Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T04:21:23.132Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c2162c3236e5d44cb717c"
+  },
+  "title": "Fruits & Vegetable",
+  "slug": "fruits-vegetable",
+  "createdAt": {
+    "$date": "2024-05-21T04:21:54.551Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T04:21:54.551Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c217bc3236e5d44cb717d"
+  },
+  "title": "Snack & Spice",
+  "slug": "snack-spice",
+  "createdAt": {
+    "$date": "2024-05-21T04:22:19.337Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T04:22:19.337Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c218ec3236e5d44cb717e"
+  },
+  "title": "Juice & Drinks",
+  "slug": "juice-drinks",
+  "createdAt": {
+    "$date": "2024-05-21T04:22:38.573Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T04:22:38.573Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c21a5c3236e5d44cb717f"
+  },
+  "title": "Chicken & Meat",
+  "slug": "chicken-meat",
+  "createdAt": {
+    "$date": "2024-05-21T04:23:01.911Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T04:23:01.911Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c21b5c3236e5d44cb7180"
+  },
+  "title": "Fast Food",
+  "slug": "fastfood",
+  "createdAt": {
+    "$date": "2024-05-21T04:23:17.574Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T04:23:17.574Z"
+  },
+  "__v": 0
+}]

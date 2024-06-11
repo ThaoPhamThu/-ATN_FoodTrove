@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6662e084bf46e6413c11d0d8"
+  },
+  "title": "Milks & Dairies",
+  "slug": "milk-dairy",
+  "createdAt": {
+    "$date": "2024-06-07T10:27:16.512Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T10:27:16.512Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6662e0a4bf46e6413c11d0d9"
+  },
+  "title": "Fresh Fruit",
+  "slug": "fresh-fruit",
+  "createdAt": {
+    "$date": "2024-06-07T10:27:48.409Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T10:27:48.409Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6662e0bdbf46e6413c11d0da"
+  },
+  "title": "Meat Food",
+  "slug": "meat-food",
+  "createdAt": {
+    "$date": "2024-06-07T10:28:13.881Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T10:28:13.881Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6662e0dcbf46e6413c11d0db"
+  },
+  "title": "Vegetables",
+  "slug": "vegetable",
+  "createdAt": {
+    "$date": "2024-06-07T10:28:44.654Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T10:28:44.654Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6662e10abf46e6413c11d0dc"
+  },
+  "title": "Healthy Meals",
+  "slug": "healhy-meal",
+  "createdAt": {
+    "$date": "2024-06-07T10:29:30.047Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-07T10:29:30.047Z"
+  },
+  "__v": 0
+}]

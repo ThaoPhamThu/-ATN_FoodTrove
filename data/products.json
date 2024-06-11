@@ -1,0 +1,1190 @@
+[{
+  "_id": {
+    "$oid": "664c9e0291f370270415c29c"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297216/rsduzwuvfy2yqrxk4beu.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297216/rsduzwuvfy2yqrxk4beu.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297216/rsduzwuvfy2yqrxk4beu.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297216/rsduzwuvfy2yqrxk4beu.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297216/rsduzwuvfy2yqrxk4beu.png"
+  ],
+  "stock": 200,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 20,
+  "price": 30000,
+  "finalprice": 24000,
+  "titleProduct": "Chanh vàng không hạt",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Quả chanh tươi, mọng nước, giàu vitamin C, tăng cường đề kháng",
+  "brand": "Ogari",
+  "weightProduct": "500 grams",
+  "slug": "lemon",
+  "category": "Fruits & Vegetable" ,
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:13:38.231Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:13:38.231Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c9eac91f370270415c29d"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297387/zlvlb4jf8mkiwkyendk8.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297387/zlvlb4jf8mkiwkyendk8.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297387/zlvlb4jf8mkiwkyendk8.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297387/zlvlb4jf8mkiwkyendk8.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297387/zlvlb4jf8mkiwkyendk8.png"
+  ],
+  "stock": 200,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 25,
+  "price": 200000,
+  "finalprice": 150000,
+  "titleProduct": "Hạt macca sấy",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Hạt macca được sấy giòn, thơm, bùi, ngậy, có nhiều dưỡng chất và đảm bảo an toàn.",
+  "brand": "Ogari",
+  "weightProduct": "500 grams",
+  "slug": "macca",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:16:28.577Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:16:28.577Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664c9f7391f370270415c29e"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297586/x8kwanqzgzghk8cppkqw.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297586/x8kwanqzgzghk8cppkqw.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297586/x8kwanqzgzghk8cppkqw.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297586/x8kwanqzgzghk8cppkqw.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297586/x8kwanqzgzghk8cppkqw.png"
+  ],
+  "stock": 200,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 0,
+  "price": 80000,
+  "finalprice": 80000,
+  "titleProduct": "Dưa hấu",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Quả dưa hấu được chọn lọc kỹ càng, mọng nước, ngon, ngọt thanh, ddảm bảo an toàn.",
+  "brand": "Ogari",
+  "weightProduct": "2,5 kilogams",
+  "slug": "water-melon",
+  "category": "Fruits & Vegetable",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:19:47.215Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:19:47.215Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ca01a91f370270415c29f"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297753/e9dtrnio7kfreyhcduek.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297753/e9dtrnio7kfreyhcduek.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297753/e9dtrnio7kfreyhcduek.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297753/e9dtrnio7kfreyhcduek.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297753/e9dtrnio7kfreyhcduek.png"
+  ],
+  "stock": 200,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 20,
+  "price": 80000,
+  "finalprice": 64000,
+  "titleProduct": "Táo organic",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những quả táo giàu vitamin, hương vị thơm, ngon được chọn lọc kỹ càng.",
+  "brand": "Ogari",
+  "weightProduct": "1 kilogams",
+  "slug": "apple",
+  "category": "Fruits & Vegetable",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:22:34.741Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:22:34.741Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ca16191f370270415c2a0"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298080/i0ovf8gpz79orvqecqta.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298080/i0ovf8gpz79orvqecqta.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298080/i0ovf8gpz79orvqecqta.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298080/i0ovf8gpz79orvqecqta.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298080/i0ovf8gpz79orvqecqta.jpg"
+  ],
+  "stock": 200,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 30,
+  "price": 180000,
+  "finalprice": 126000,
+  "titleProduct": "Ngũ cốc hạt",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Ngũ cốc vị dừa thơm, ngon, được làm 100% từ thực phẩm sạch: hạt bí, hạt điều, hạnh nhân,... Tốt cho sức khỏe.",
+  "brand": "NestFood",
+  "weightProduct": "200 grams",
+  "slug": "cereal",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:28:01.333Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:28:01.333Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ca23f91f370270415c2a1"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298303/nyu3grtplzatz9gfepdv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298303/nyu3grtplzatz9gfepdv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298303/nyu3grtplzatz9gfepdv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298303/nyu3grtplzatz9gfepdv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298303/nyu3grtplzatz9gfepdv.jpg"
+  ],
+  "stock": 200,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 20,
+  "price": 100000,
+  "finalprice": 80000,
+  "titleProduct": "Sữa chua Hy Lạp Vanilla",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Sữa chua được sản xuất theo công nghệ Hy Lạp, được tuyển chọn từ những con bò đạt tiêu chuẩn châu Âu.",
+  "brand": "NestFood",
+  "weightProduct": "200 grams",
+  "slug": "yogurt",
+  "category": "Dairy & Bakery",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:31:43.859Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:31:43.859Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ca42e91f370270415c2a2"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298797/lkmnfahwfucsp7apdxvo.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298797/lkmnfahwfucsp7apdxvo.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298797/lkmnfahwfucsp7apdxvo.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298797/lkmnfahwfucsp7apdxvo.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298797/lkmnfahwfucsp7apdxvo.jpg"
+  ],
+  "stock": 169,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 40,
+  "price": 300000,
+  "finalprice": 180000,
+  "titleProduct": "Bơ hạt dẻ cười",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Bơ hạt dẻ cười được sản xuấ từ những hạt dẻ cười chọn lọc, sản phẩm giàu omega 3 6 9, giúp bổ sung chất béo tốt cho sức khỏe.",
+  "brand": "NestFood",
+  "weightProduct": "227 grams",
+  "slug": "butter",
+  "category": "Dairy & Bakery",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:39:58.156Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:39:58.156Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ca52a91f370270415c2a3"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg"
+
+  ],
+  "stock": 70,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 8,
+  "price": 170000,
+  "finalprice": 156400,
+  "titleProduct": "Tinh chất chanh vàng",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Tinh chất chanh vàng, giàu vitamin C giúp tăng cường sức đề kháng tự nhiên cho cơ thể, tạo vị chua tự nhiên và hương chanh cho món ăn của bạn.",
+  "brand": "NestFood",
+  "weightProduct": "50 ml",
+  "slug": "lemon-oil",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:44:10.043Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:44:10.043Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ca69491f370270415c2a4"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299412/hvd6ie3sk6wnluwdybix.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299412/hvd6ie3sk6wnluwdybix.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299412/hvd6ie3sk6wnluwdybix.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299412/hvd6ie3sk6wnluwdybix.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299412/hvd6ie3sk6wnluwdybix.jpg"
+  ],
+  "stock": 300,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 330000,
+  "finalprice": 297000,
+  "titleProduct": "Cà phê Altura",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những hạt cà phê ĐakLak hảo hạn được chế biến theo công thức đặc biệt tạo nên hương vị đậm đà khó quên.",
+  "brand": "NestFood",
+  "weightProduct": "340 gram",
+  "slug": "coffee",
+  "category": "Juice & Drinks",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T13:50:12.990Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T13:50:12.990Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb11d91f370270415c2a5"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302108/rdn0nro0mqka4fael37n.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302108/rdn0nro0mqka4fael37n.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302108/rdn0nro0mqka4fael37n.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302108/rdn0nro0mqka4fael37n.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302108/rdn0nro0mqka4fael37n.jpg"
+  ],
+  "stock": 500,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 20,
+  "price": 50000,
+  "finalprice": 40000,
+  "titleProduct": "Bột trà sữa hoa nghệ tây",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Bột trà sữa hương hoa nghệ tây pha sẵn tiện lợi.",
+  "brand": "NestFood",
+  "weightProduct": "75 gram",
+  "slug": "milk tea",
+  "category": "Juice & Drinks",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T14:35:10.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T14:35:10.000Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb28191f370270415c2a6"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302464/qvl3sntdrz6iobalihy7.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302464/qvl3sntdrz6iobalihy7.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302464/qvl3sntdrz6iobalihy7.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302464/qvl3sntdrz6iobalihy7.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302464/qvl3sntdrz6iobalihy7.jpg"
+  ],
+  "stock": 700,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 5,
+  "price": 160000,
+  "finalprice": 152000,
+  "titleProduct": "Quả hạt sấy khô",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Quả hạt sấy khô gồm 5 loại hạt và 4 loại quả khác nhau, là món ăn vặt thơm ngon, tốt cho sức khỏe.",
+  "brand": "NestFood",
+  "weightProduct": "115 gram",
+  "slug": "dry-fruit",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T14:41:05.287Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T14:41:05.287Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb3f691f370270415c2a7"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302837/bqy28kf22eqwrpqatcar.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302837/bqy28kf22eqwrpqatcar.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302837/bqy28kf22eqwrpqatcar.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302837/bqy28kf22eqwrpqatcar.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302837/bqy28kf22eqwrpqatcar.jpg"
+  ],
+  "stock": 678,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 30000,
+  "finalprice": 27000,
+  "titleProduct": "Rau củ sấy",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Gồm 6 loại rau sấy thăng hoa giúp giữ nguyên hương rau tươi ngon.",
+  "brand": "NestFood",
+  "weightProduct": "45 gram",
+  "slug": "dry-vege",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T14:47:18.796Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T14:47:18.796Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb51b91f370270415c2a8"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303130/zpjz3gmhfoilii01n25b.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303130/zpjz3gmhfoilii01n25b.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303130/zpjz3gmhfoilii01n25b.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303130/zpjz3gmhfoilii01n25b.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303130/zpjz3gmhfoilii01n25b.jpg"
+  ],
+  "stock": 6868,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 45000,
+  "finalprice": 40500,
+  "titleProduct": "Ngũ cốc sấy khô",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những hạt ngũ cốc giòn tan bổ sung thêm gia vị giúp món ăn vặt đã ngon nay thêm chất.",
+  "brand": "Vinasnack",
+  "weightProduct": "45 gram",
+  "slug": "dry-nuts",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T14:52:11.923Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T14:52:11.923Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb6aa91f370270415c2a9"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303529/xkiatvpc2tt528jpcapi.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303529/xkiatvpc2tt528jpcapi.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303529/xkiatvpc2tt528jpcapi.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303529/xkiatvpc2tt528jpcapi.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303529/xkiatvpc2tt528jpcapi.jpg"
+  ],
+  "stock": 686,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 0,
+  "price": 20000,
+  "finalprice": 20000,
+  "titleProduct": "Cà rốt Đà Lạt",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những củ cà rốt thu hoạch vào sáng sớm mỗi ngày giúp giữ được độ tươi ngon đến tay người tiêu dùng.",
+  "brand": "Vinagarden",
+  "weightProduct": "500 gram",
+  "slug": "carrot",
+  "category": "Fruits & Vegetable",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T14:58:50.443Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T14:58:50.443Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb73e91f370270415c2aa"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303676/ubmd7b4yi8hd3ilirvsv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303676/ubmd7b4yi8hd3ilirvsv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303676/ubmd7b4yi8hd3ilirvsv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303676/ubmd7b4yi8hd3ilirvsv.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303676/ubmd7b4yi8hd3ilirvsv.jpg"
+  ],
+  "stock": 777,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 0,
+  "price": 25000,
+  "finalprice": 25000,
+  "titleProduct": "Ớt chuông Đà Lạt",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những quả ớt chuông thu hoạch vào sáng sớm mỗi ngày giúp giữ được độ tươi ngon đến tay người tiêu dùng.",
+  "brand": "Vinagarden",
+  "weightProduct": "500 gram",
+  "slug": "bell pepper",
+  "category": "Fruits & Vegetable",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:01:18.331Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:01:18.331Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb82991f370270415c2ab"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303912/zrywib8yftokirffylpt.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303912/zrywib8yftokirffylpt.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303912/zrywib8yftokirffylpt.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303912/zrywib8yftokirffylpt.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303912/zrywib8yftokirffylpt.jpg"
+  ],
+  "stock": 60,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 0,
+  "price": 25000,
+  "finalprice": 25000,
+  "titleProduct": "Nước ép xoài",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "100% từ những quả xoài chín mọng.",
+  "brand": "VinaFood",
+  "weightProduct": "330 ml",
+  "slug": "mango juice",
+  "category": "Juice & Drinks",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:05:13.634Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:05:13.634Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cb98f91f370270415c2ac"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304269/hwvadhxqangdoipbwnfn.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304269/hwvadhxqangdoipbwnfn.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304269/hwvadhxqangdoipbwnfn.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304269/hwvadhxqangdoipbwnfn.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304269/hwvadhxqangdoipbwnfn.jpg"
+  ],
+  "stock": 120,
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 15,
+  "price": 300000,
+  "finalprice": 255000,
+  "titleProduct": "Sầu riêng ri 6",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Sầu riêng ri 6 chín cây bao ngọt bao thơm ",
+  "brand": "Vinagarden",
+  "weightProduct": "2 kilograms",
+  "slug": "durian",
+  "category": "Fruits & Vegetable",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:11:11.227Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:11:11.227Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cbbb49e9a852bd0666c4c"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg"
+  ],
+  "stock": 1200,
+  "numOfReviews": 0,
+  "saleProduct": 20,
+  "price": 30000,
+  "finalprice": 24000,
+  "titleProduct": "Xoài sấy dẻo",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những miếng xoài chua ngọt, dẻo, dai sẽ khiến bạn không thể ngừng ăn.",
+  "brand": "VinaFood",
+  "weightProduct": "20 grams",
+  "slug": "dry-mango",
+  "category": "Snack & Spice",
+  "productSold": 0,
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:20:20.134Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:20:20.134Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cbd28bd740d1f84d8443a"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg"
+  ],
+  "stock": 120,
+  "productSold": 334,
+  "numOfReviews": 0,
+  "saleProduct": 30,
+  "price": 50000,
+  "finalprice": 35000,
+  "titleProduct": "Bơ sáp loại I",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những quả bơ sáp loại I chín mềm, béo ngậy.",
+  "brand": "Vinagarden",
+  "weightProduct": "500 grams",
+  "slug": "vocado",
+  "category": "Juice & Drinks",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:26:32.066Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:26:32.066Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cbdf2bd740d1f84d8443b"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305392/ybdo76znce1ooavhvmcl.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305392/ybdo76znce1ooavhvmcl.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305392/ybdo76znce1ooavhvmcl.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305392/ybdo76znce1ooavhvmcl.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305392/ybdo76znce1ooavhvmcl.jpg"
+  ],
+  "stock": 130,
+  "productSold": 794,
+  "numOfReviews": 0,
+  "saleProduct": 20,
+  "price": 55000,
+  "finalprice": 44000,
+  "titleProduct": "Socola hạt điều",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Socola hảo hạn kết hợp  với hạt điều giòn tan cực kỳ hấp dẫn.",
+  "brand": "Nestle",
+  "weightProduct": "180 grams",
+  "slug": "chocolate",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:29:54.323Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:29:54.323Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cbe91bd740d1f84d8443c"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305551/uanu7ya7y9tlbzw4cmox.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305551/uanu7ya7y9tlbzw4cmox.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305551/uanu7ya7y9tlbzw4cmox.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305551/uanu7ya7y9tlbzw4cmox.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305551/uanu7ya7y9tlbzw4cmox.jpg"
+  ],
+  "stock": 238,
+  "productSold": 513,
+  "numOfReviews": 0,
+  "saleProduct": 20,
+  "price": 40000,
+  "finalprice": 32000,
+  "titleProduct": "Hạt hạnh nhân rang sữa dừa",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Hạt điều giòn tan, thơm mùi cốt dừa béo ngậy,",
+  "brand": "Nestle",
+  "weightProduct": "140 grams",
+  "slug": "cashew",
+  "category": "Snack & Spice",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:32:33.186Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:32:33.186Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cbfe5bd740d1f84d8443d"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305891/uqj57hm5f7lnfaaz3o6y.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305891/uqj57hm5f7lnfaaz3o6y.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305891/uqj57hm5f7lnfaaz3o6y.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305891/uqj57hm5f7lnfaaz3o6y.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305891/uqj57hm5f7lnfaaz3o6y.jpg"
+  ],
+  "stock": 38,
+  "productSold": 78946,
+  "numOfReviews": 0,
+  "saleProduct": 0,
+  "price": 15000,
+  "finalprice": 15000,
+  "titleProduct": "Bánh mỳ nguyên cám mè đen",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Được làm từ những nguyên liệu chất lượng, đảm bảo vệ sinh an toàn thực phẩm.",
+  "brand": "VinaBakery",
+  "weightProduct": "340 grams",
+  "slug": "bread",
+  "category": "Dairy & Bakery",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:38:13.844Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:38:13.844Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cc193bd740d1f84d8443e"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306321/laccz8jeunw2rpjhdzy0.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306321/laccz8jeunw2rpjhdzy0.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306321/laccz8jeunw2rpjhdzy0.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306321/laccz8jeunw2rpjhdzy0.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306321/laccz8jeunw2rpjhdzy0.jpg"
+  ],
+  "stock": 38,
+  "productSold": 746,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 35000,
+  "finalprice": 31500,
+  "titleProduct": "Nước ép táo cần tây",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Táo kết hợp với cần tây tạo lên sự kết hợp tuyệt vời của hương vị.",
+  "brand": "VinaFood",
+  "weightProduct": "330 ml",
+  "slug": "apple juice",
+  "category": "Juice & Drinks",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:45:23.046Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:45:23.046Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cc293bd740d1f84d8443f"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306577/aysvww1madweklav9ohm.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306577/aysvww1madweklav9ohm.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306577/aysvww1madweklav9ohm.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306577/aysvww1madweklav9ohm.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716306577/aysvww1madweklav9ohm.jpg"
+  ],
+  "stock": 380,
+  "productSold": 1654,
+  "numOfReviews": 0,
+  "saleProduct": 0,
+  "price": 33000,
+  "finalprice": 33000,
+  "titleProduct": "Chuối Donni",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Chuối Donni là loại chuối trồng ở những vùng nhiệt đới xích đạo chứa nhiều dinh dưỡng thiết yếu.",
+  "brand": "Vinagarden",
+  "weightProduct": "500 grams",
+  "slug": "banana",
+  "category": "Fruits & Vegetable",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T15:49:39.016Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T15:49:39.016Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cc5b3bd740d1f84d84440"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307377/xghscecj22nzsecqlgxf.webp",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307377/xghscecj22nzsecqlgxf.webp",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307377/xghscecj22nzsecqlgxf.webp",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307377/xghscecj22nzsecqlgxf.webp",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307377/xghscecj22nzsecqlgxf.webp"
+  ],
+  "stock": 102,
+  "productSold": 34,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 45000,
+  "finalprice": 40500,
+  "titleProduct": "Ức gà ta",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Từ những chú gà được nuôi 100% theo tiêu chuẩn organic, trải qua quy trình giết mổ tiệt trùng, mang đến những miếng gà tươi ngon nhất đến tay người tiêu dùng.",
+  "brand": "VinaMeat",
+  "weightProduct": "500 grams",
+  "slug": "chicken-breast",
+  "category": "Chicken & Meat",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:02:59.419Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:02:59.419Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cc61abd740d1f84d84441"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307478/no580pmjuwbn1ku1qtct.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307478/no580pmjuwbn1ku1qtct.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307478/no580pmjuwbn1ku1qtct.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307478/no580pmjuwbn1ku1qtct.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307478/no580pmjuwbn1ku1qtct.jpg"
+  ],
+  "stock": 135,
+  "productSold": 61,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 40000,
+  "finalprice": 36000,
+  "titleProduct": "Đùi tỏi gà ta",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Từ những chú gà được nuôi 100% theo tiêu chuẩn organic, trải qua quy trình giết mổ tiệt trùng, mang đến những miếng gà tươi ngon nhất đến tay người tiêu dùng.",
+  "brand": "VinaMeat",
+  "weightProduct": "500 grams",
+  "slug": "chicken-thighs",
+  "category": "Chicken & Meat",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:04:42.428Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:04:42.428Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cc6a9bd740d1f84d84442"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307623/zmxniegepdus3ns9znah.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307623/zmxniegepdus3ns9znah.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307623/zmxniegepdus3ns9znah.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307623/zmxniegepdus3ns9znah.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307623/zmxniegepdus3ns9znah.jpg"
+  ],
+  "stock": 148,
+  "productSold": 75,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 550000,
+  "finalprice": 495000,
+  "titleProduct": "Thịt đùi heo",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những chú heo được nuôi thuần chay mang đến cho người tiêu dùng những miếng thịt sạch ngon nhất.",
+  "brand": "VinaMeat",
+  "weightProduct": "500 grams",
+  "slug": "pork-thighs",
+  "category": "Chicken & Meat",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:07:05.378Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:07:05.378Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cc719bd740d1f84d84443"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307735/tqfwc2fw7vmiifpp9ypk.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307735/tqfwc2fw7vmiifpp9ypk.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307735/tqfwc2fw7vmiifpp9ypk.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307735/tqfwc2fw7vmiifpp9ypk.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307735/tqfwc2fw7vmiifpp9ypk.png"
+  ],
+  "stock": 113,
+  "productSold": 15,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 650000,
+  "finalprice": 585000,
+  "titleProduct": "Thịt ba rọi heo",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Những chú heo được nuôi thuần chay mang đến cho người tiêu dùng những miếng thịt sạch ngon nhất.",
+  "brand": "VinaMeat",
+  "weightProduct": "500 grams",
+  "slug": "pork-belly",
+  "category": "Chicken & Meat",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:08:57.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:08:57.111Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664cc7f4bd740d1f84d84444"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307954/okbg6uwuchyutsuwbxtq.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307954/okbg6uwuchyutsuwbxtq.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307954/okbg6uwuchyutsuwbxtq.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307954/okbg6uwuchyutsuwbxtq.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307954/okbg6uwuchyutsuwbxtq.jpg"
+  ],
+  "stock": 117,
+  "productSold": 19,
+  "numOfReviews": 0,
+  "saleProduct": 0,
+  "price": 950000,
+  "finalprice": 950000,
+  "titleProduct": "Thăn bò",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Bò được nuôi ở những đồng cỏ rộng lớn ở cao nguyên Ba Vì, thịt ngon căng mọng.",
+  "brand": "Orgari",
+  "weightProduct": "500 grams",
+  "slug": "beef",
+  "category": "Chicken & Meat",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:12:36.019Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:12:36.019Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ccb80bd740d1f84d84445"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716308862/ynj5imlup66j8ymstppo.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg"
+  ],
+  "stock": 80,
+  "productSold": 169,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 650000,
+  "finalprice": 585000,
+  "titleProduct": "Rau hấp kèm muối hồng",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Rau củ organic tươi ngon được hấp giữ nguyên vị ngọt kèm muối hồng giàu khoáng chất.",
+  "brand": "FoodTrove",
+  "weightProduct": "300 grams",
+  "slug": "steam-veg",
+  "category": "Fast Food",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:27:44.437Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:27:44.437Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ccc3cbd740d1f84d84446"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg"
+  ],
+  "stock": 80,
+  "productSold": 167,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 750000,
+  "finalprice": 675000,
+  "titleProduct": "Salad đậu gà",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Salad đậu gà kết hợp cùng nấm, bí đỏ, rau xanh, bơ cùng sốt béo ngậy.",
+  "brand": "FoodTrove",
+  "weightProduct": "300 grams",
+  "slug": "chickenpeas-salad",
+  "category": "Fast Food",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:30:52.686Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:30:52.686Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ccd01bd740d1f84d84447"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309247/jbs4j218wg5vsvpcp5qb.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309247/jbs4j218wg5vsvpcp5qb.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309247/jbs4j218wg5vsvpcp5qb.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309247/jbs4j218wg5vsvpcp5qb.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309247/jbs4j218wg5vsvpcp5qb.jpg"
+  ],
+  "stock": 66,
+  "productSold": 123,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 70000,
+  "finalprice": 63000,
+  "titleProduct": "Súp đậu hũ non",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Đậu hũ non mềm mịn hòa cùng vị béo thơm của cốt dừa thêm hương vị tươi mát của ớt chuông.",
+  "brand": "FoodTrove",
+  "weightProduct": "350 grams",
+  "slug": "soup-tofu",
+  "category": "Fast Food",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:34:09.712Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:34:09.712Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "664ccda6bd740d1f84d84448"
+  },
+  "ratingsProduct": 5,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309412/n6u2iowzpljf8g7mz8fw.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309412/n6u2iowzpljf8g7mz8fw.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309412/n6u2iowzpljf8g7mz8fw.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309412/n6u2iowzpljf8g7mz8fw.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309412/n6u2iowzpljf8g7mz8fw.jpg"
+  ],
+  "stock": 99,
+  "productSold": 999,
+  "numOfReviews": 0,
+  "saleProduct": 10,
+  "price": 50000,
+  "finalprice": 45000,
+  "titleProduct": "Salad rau củ quả",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "Từ những thành phần rau củ tươi ngon hòa quện sốt lòng đỏ trứng giàu dinh dưỡng mang đến sự cân bằng cho bữa ăn của bạn.",
+  "brand": "FoodTrove",
+  "weightProduct": "250 grams",
+  "slug": "salad-fruit",
+  "category": "Fast Food",
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-05-21T16:36:54.277Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-21T16:36:54.277Z"
+  },
+  "__v": 0
+}]

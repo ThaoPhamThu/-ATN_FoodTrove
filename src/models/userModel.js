@@ -10,47 +10,51 @@ const userSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Tên không được để trống'],
-        maxLength: [30, 'Tên của bạn không được vượt quá 30 ký tự']
     },
     email: {
         type: String,
         required: [true, 'Email không được để trống'],
-        unique: true,
-        validate: [validator.isEmail, 'Vui lòng nhập địa chỉ email hợp lệ']
     },
     password: {
         type: String,
         required: [true, 'Mật khẩu không được để trống'],
-        minLength: [6, 'Mật khẩu của bạn phải dài hơn 6 ký tự'],
         select: false
     },
     phoneNumber: {
         type: Number,
         required: [true, 'Số điện thoại không được để trống'],
-        minLength: [10, 'Số điện thoại không đúng'],
     },
     avatar: {
-        public_id: {
-            type: String,
-            required: true
-        },
-        url: {
-            type: String,
-            required: true
+        type: String,
+        default: 'https://res.cloudinary.com/djdjwg9zz/image/upload/v1716441301/vweuz5dzmz7fglnbgfy6.jpg'
+    },
+    cart: [{
+        product: { type: mongoose.Schema.Types.ObjectId, ref: 'product' },
+        quantity: Number,
+        price: Number
+    }],
+    address: String,
+    wishlist: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'product'
         }
+    ],
+    isBlocked: {
+        type: Boolean,
+        default: false
     },
     role: {
         type: String,
         default: 'user'
     },
-    createdAt: {
-        type: Date,
-        default: Date.now
-    },
     resetPasswordToken: String,
     resetPasswordExpire: Date
 
-})
+},
+    {
+        timestamps: true
+    })
 
 // Encrypting password before saving user
 userSchema.pre('save', async function (next) {
