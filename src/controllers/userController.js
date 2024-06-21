@@ -1,56 +1,64 @@
 const User = require('../models/userModel');
 const Product = require('../models/productModel');
+const Order = require('../models/orderModel');
 const ErrorHandler = require('../utils/errorHandler');
 const catchAsyncErrors = require('../middlewares/catchAsyncErrors');
 const sendToken = require('../utils/jwtToken');
-const crypto = require('crypto');
+const makeToken = require('uniqid')
 const { uploadImages, removeImage } = require('../service/uploadFileService');
+const { sendMail } = require('../utils/sendMail');
+const crypto = require('crypto');
+
 
 const registerUser = catchAsyncErrors(async (req, res, next) => {
-
-    let { name, email, password, phoneNumber } = req.body;
-
-    if (!name || !email || !password || !phoneNumber)
-        return res.status(400).json({
-            success: false,
-            mes: 'Missing inputs'
+    const { name, email, password, phoneNumber } = req.body;
+    if (!name || !email || !password || !phoneNumber) throw new ErrorHandler('Missing input!')
+    const userEmail = await User.findOne({ email });
+    if (userEmail) return next(new ErrorHandler('Email already exists, please enter another email!'))
+    else {
+        const token = makeToken()
+        const emailEdited = btoa(email) + '@' + token
+        const user = await User.create({ name, email: emailEdited, password, phoneNumber })
+        if (user) {
+            const html = `<h2>Register code:</h2><br /><blockquote>${token}</blockquote> `
+            await sendMail({ email, html, subject: 'Confirm register account in FoodTrove' })
+        }
+        setTimeout(async () => {
+            await User.deleteOne({ email: emailEdited })
+        }, [300000])
+        return res.json({
+            success: user ? true : false,
+            mes: user ? 'Please check your email to active account' : 'Some thing wrong'
         })
-
-    const userEmail = await User.findOne({ email: email });
-    if (userEmail) {
-        return next(new ErrorHandler('Email đã tồn tại, vui lòng nhập email khác', 401))
-    } else {
-        const images = req.file?.map((file) => file.path);
-
-        const result = await uploadImages(images);
-
-        const user = await User.create({
-            name,
-            email,
-            password,
-            phoneNumber,
-            avatar: result[0]
-        });
-        sendToken(user, 200, res)
     }
-});
+
+})
+
+const finalRegister = catchAsyncErrors(async (req, res, next) => {
+    const { token } = req.params
+    const notActiveEmail = await User.findOne({ email: new RegExp(`${token}$`) })
+    if (notActiveEmail) {
+        notActiveEmail.email = atob(notActiveEmail?.email?.split('@')[0])
+        notActiveEmail.save()
+    }
+    return res.json({
+        success: notActiveEmail ? true : false,
+        mes: notActiveEmail ? 'Register successfully, please go login' : 'Some thing wrong'
+    })
+
+})
 
 const loginUser = catchAsyncErrors(async (req, res, next) => {
     const { email, password } = req.body;
 
-    // Checks if email and password is entered by user
     if (!email || !password) {
         return next(new ErrorHandler('Email và Mật khẩu không được để trống', 400))
     }
-
-    // Finding user in database
     const user = await User.findOne({ email }).select('+password')
 
     if (!user) {
         return next(new ErrorHandler('Email không tồn tại', 401));
     }
-
-    // Checks if password is correct or not
     const isPasswordMatched = await user.comparePassword(password);
 
     if (!isPasswordMatched) {
@@ -72,14 +80,53 @@ const logoutUser = catchAsyncErrors(async (req, res, next) => {
     })
 });
 
+const forgotPassword = catchAsyncErrors(async (req, res, next) => {
+    const { email } = req.body;
+    if (!email) throw new ErrorHandler('Missing email!')
+    const user = await User.findOne({ email })
+    if (!user) throw new ErrorHandler('User not found!')
+    const resetToken = user.getPasswordResetToken()
+    await user.save()
+    const html = `Please click on the link below to change password. This link will expire after 15 minutes.
+        <a href= ${process.env.FRONTEND_URL}/reset-password/${resetToken}>Click here</a> `
+    const data = {
+        email,
+        html,
+        subject: 'Change Password'
+    }
+    const rs = await sendMail(data)
+    return res.status(200).json({
+        success: true,
+        mes: 'Please check your email'
+    })
+})
+
+const resetPassword = catchAsyncErrors(async (req, res, next) => {
+    const { password, token } = req.body;
+    if (!password || !token) throw new ErrorHandler('Missing input!')
+    const passwordResetToken = crypto.createHash('sha256').update(token).digest('hex')
+    const user = await User.findOne({ passwordResetToken, passwordResetExpires: { $gt: Date.now() } })
+    if (!user) throw new ErrorHandler('Invalid reset token!')
+    user.password = password
+    user.passwordResetToken = undefined
+    user.passwordChangedAt = Date.now()
+    user.passwordResetExpires = undefined
+    await user.save()
+    return res.status(200).json({
+        success: user ? true : false,
+        mes: user ? 'Updated password' : 'Some thing wrong'
+    })
+})
+
 const getUserProfile = catchAsyncErrors(async (req, res, next) => {
     const user = await User.findById(req.user.id).populate({
         path: 'cart',
         populate: {
             path: 'product',
-            select: 'titleProduct finalprice price imagesProduct weightProduct'
+            select: 'titleProduct finalprice price imagesProduct weightProduct ratingsProduct saleProduct'
         }
-    }).populate('wishlist', 'titleProduct finalprice price imagesProduct weightProduct ratingsProduct');
+    }).populate('wishlist', 'titleProduct finalprice price imagesProduct weightProduct ratingsProduct saleProduct')
+        ;
 
     res.status(200).json({
         success: true,
@@ -88,15 +135,16 @@ const getUserProfile = catchAsyncErrors(async (req, res, next) => {
 });
 
 const updatePassword = catchAsyncErrors(async (req, res, next) => {
+    const { oldPassword, newPassword } = req.body
     const user = await User.findById(req.user.id).select('+password');
 
     // Check previous user password
-    const isMatched = await user.comparePassword(req.body.oldPassword)
+    const isMatched = await user.comparePassword(oldPassword)
     if (!isMatched) {
-        return next(new ErrorHandler('Mật khẩu cũ không đúng'));
+        return next(new ErrorHandler('Old password is incorrect'));
     }
 
-    user.password = req.body.password;
+    user.password = newPassword;
     await user.save();
 
     sendToken(user, 200, res)
@@ -185,6 +233,16 @@ const allUsers = catchAsyncErrors(async (req, res, next) => {
 
 });
 
+const getUsers = catchAsyncErrors(async (req, res, next) => {
+    const users = await User.find();
+
+    return res.status(200).json({
+        success: users ? true : false,
+        users: users ? users : 'Some thing wrong'
+    })
+
+})
+
 const updateUserCart = catchAsyncErrors(async (req, res, next) => {
     const { _id } = req.user;
     const { pid, quantity = 1 } = req.body;
@@ -205,8 +263,6 @@ const updateUserCart = catchAsyncErrors(async (req, res, next) => {
             mes: response ? 'Added product to cart' : 'Some thing wrong'
         })
     }
-
-
 });
 
 const removeUserCart = catchAsyncErrors(async (req, res, next) => {
@@ -284,5 +340,9 @@ module.exports = {
     removeUserCart,
     updateUser,
     deleteUser,
-    updateWishlist
+    updateWishlist,
+    finalRegister,
+    forgotPassword,
+    resetPassword,
+    getUsers
 }

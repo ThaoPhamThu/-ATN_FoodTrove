@@ -48,8 +48,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: 'user'
     },
-    resetPasswordToken: String,
-    resetPasswordExpire: Date
+    passwordChangedAt: Date,
+    passwordResetToken: String,
+    passwordResetExpires: String,
+    registerToken: String
 
 },
     {
@@ -78,15 +80,15 @@ userSchema.methods.getJwtToken = function () {
 }
 
 // Generate password reset token
-userSchema.methods.getResetPasswordToken = function () {
+userSchema.methods.getPasswordResetToken = function () {
     // Generate token
     const resetToken = crypto.randomBytes(20).toString('hex');
 
-    // Hash and set to resetPasswordToken
-    this.resetPasswordToken = crypto.createHash('sha256').update(resetToken).digest('hex')
+    // Hash and set to passwordResetToken
+    this.passwordResetToken = crypto.createHash('sha256').update(resetToken).digest('hex')
 
     // Set token expire time
-    this.resetPasswordExpire = Date.now() + 30 * 60 * 1000
+    this.passwordResetExpires = Date.now() + 15 * 60 * 1000
 
     return resetToken
 

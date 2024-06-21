@@ -8,7 +8,6 @@ const cors = require('cors');
 const errorMiddleware = require('./middlewares/errors');
 const products = require('./routes/productRoute');
 const auth = require('./routes/userRoute');
-const payment = require('./routes/paymentRoute');
 const order = require('./routes/orderRoute');
 const category = require('./routes/categoryRoute');
 const categoryBlog = require('./routes/categoryBlogRoute');
@@ -29,19 +28,17 @@ app.use(cookieParser());
 
 app.use(cors({
   origin: process.env.FRONTEND_URL,
-  methods: ['POST', 'GET', 'PUT', 'DELETE']
+  methods: ['POST', 'GET', 'PUT', 'DELETE'],
+  credentials: true
 }));
 
 // Import all routes
 app.use('/api/products', products);
 app.use('/api/users', auth);
-app.use('/api/v1/', payment);
 app.use('/api/orders', order);
 app.use('/api/categories', category);
 app.use('/api/category-blogs', categoryBlog);
 app.use('/api/blogs', blog);
-
-
 
 
 if (process.env.NODE_ENV === 'production') {

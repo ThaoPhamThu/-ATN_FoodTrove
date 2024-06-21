@@ -101,6 +101,16 @@ const getProducts = catchAsyncErrors(async (req, res, next) => {
 
 });
 
+const getAllProducts = catchAsyncErrors(async (req, res, next) => {
+    const products = await Product.find();
+
+    return res.status(200).json({
+        success: products ? true : false,
+        products: products ? products : 'Some thing wrong'
+    })
+
+})
+
 const getProductDetail = catchAsyncErrors(async (req, res, next) => {
 
     const product = await Product.findById(req.params.pid).populate({
@@ -273,4 +283,4 @@ const deleteReview = catchAsyncErrors(async (req, res, next) => {
 
 
 
-module.exports = { getProducts, createProduct, getProductDetail, updateProduct, deleteProduct, createProductReview, getProductReviews, deleteReview }
+module.exports = { getProducts, createProduct, getProductDetail, updateProduct, deleteProduct, createProductReview, getProductReviews, deleteReview, getAllProducts }

@@ -11,7 +11,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297216/rsduzwuvfy2yqrxk4beu.png"
   ],
   "stock": 200,
-  "productSold": 0,
+  "productSold": 6,
   "numOfReviews": 0,
   "saleProduct": 20,
   "price": 30000,
@@ -22,7 +22,7 @@
   "brand": "Ogari",
   "weightProduct": "500 grams",
   "slug": "lemon",
-  "category": "Fruits & Vegetable" ,
+  "category": "Fruits & Vegetable",
   "user": {
     "$oid": "664c99d091f370270415c299"
   },
@@ -31,7 +31,7 @@
     "$date": "2024-05-21T13:13:38.231Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T13:13:38.231Z"
+    "$date": "2024-06-21T08:00:25.926Z"
   },
   "__v": 0
 },{
@@ -47,7 +47,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297387/zlvlb4jf8mkiwkyendk8.png"
   ],
   "stock": 200,
-  "productSold": 0,
+  "productSold": 6,
   "numOfReviews": 0,
   "saleProduct": 25,
   "price": 200000,
@@ -67,7 +67,7 @@
     "$date": "2024-05-21T13:16:28.577Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T13:16:28.577Z"
+    "$date": "2024-06-18T04:06:19.963Z"
   },
   "__v": 0
 },{
@@ -83,7 +83,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297586/x8kwanqzgzghk8cppkqw.png"
   ],
   "stock": 200,
-  "productSold": 0,
+  "productSold": 5,
   "numOfReviews": 0,
   "saleProduct": 0,
   "price": 80000,
@@ -103,7 +103,7 @@
     "$date": "2024-05-21T13:19:47.215Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T13:19:47.215Z"
+    "$date": "2024-06-18T04:06:19.961Z"
   },
   "__v": 0
 },{
@@ -119,7 +119,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716297753/e9dtrnio7kfreyhcduek.png"
   ],
   "stock": 200,
-  "productSold": 0,
+  "productSold": 6,
   "numOfReviews": 0,
   "saleProduct": 20,
   "price": 80000,
@@ -139,7 +139,7 @@
     "$date": "2024-05-21T13:22:34.741Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T13:22:34.741Z"
+    "$date": "2024-06-21T08:00:25.928Z"
   },
   "__v": 0
 },{
@@ -155,7 +155,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298080/i0ovf8gpz79orvqecqta.jpg"
   ],
   "stock": 200,
-  "productSold": 0,
+  "productSold": 4,
   "numOfReviews": 0,
   "saleProduct": 30,
   "price": 180000,
@@ -175,7 +175,7 @@
     "$date": "2024-05-21T13:28:01.333Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T13:28:01.333Z"
+    "$date": "2024-06-18T04:06:13.681Z"
   },
   "__v": 0
 },{
@@ -191,7 +191,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716298303/nyu3grtplzatz9gfepdv.jpg"
   ],
   "stock": 200,
-  "productSold": 0,
+  "productSold": 2,
   "numOfReviews": 0,
   "saleProduct": 20,
   "price": 100000,
@@ -211,7 +211,7 @@
     "$date": "2024-05-21T13:31:43.859Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T13:31:43.859Z"
+    "$date": "2024-06-18T04:06:13.679Z"
   },
   "__v": 0
 },{
@@ -261,7 +261,6 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg",
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg",
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716299049/nby9fw7q462ntj0sofim.jpg"
-
   ],
   "stock": 70,
   "productSold": 0,
@@ -336,7 +335,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716302108/rdn0nro0mqka4fael37n.jpg"
   ],
   "stock": 500,
-  "productSold": 0,
+  "productSold": 6,
   "numOfReviews": 0,
   "saleProduct": 20,
   "price": 50000,
@@ -356,7 +355,7 @@
     "$date": "2024-05-21T14:35:10.000Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T14:35:10.000Z"
+    "$date": "2024-06-18T04:06:16.518Z"
   },
   "__v": 0
 },{
@@ -516,7 +515,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716303676/ubmd7b4yi8hd3ilirvsv.jpg"
   ],
   "stock": 777,
-  "productSold": 0,
+  "productSold": 6,
   "numOfReviews": 0,
   "saleProduct": 0,
   "price": 25000,
@@ -536,7 +535,7 @@
     "$date": "2024-05-21T15:01:18.331Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T15:01:18.331Z"
+    "$date": "2024-06-18T04:06:10.473Z"
   },
   "__v": 0
 },{
@@ -588,7 +587,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304269/hwvadhxqangdoipbwnfn.jpg"
   ],
   "stock": 120,
-  "productSold": 0,
+  "productSold": 3,
   "numOfReviews": 0,
   "saleProduct": 15,
   "price": 300000,
@@ -608,14 +607,14 @@
     "$date": "2024-05-21T15:11:11.227Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T15:11:11.227Z"
+    "$date": "2024-06-21T08:00:15.855Z"
   },
   "__v": 0
 },{
   "_id": {
     "$oid": "664cbbb49e9a852bd0666c4c"
   },
-  "ratingsProduct": 5,
+  "ratingsProduct": 4,
   "imagesProduct": [
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg",
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg",
@@ -624,7 +623,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716304818/t4drdxtx8rlzhtsvys1i.jpg"
   ],
   "stock": 1200,
-  "numOfReviews": 0,
+  "numOfReviews": 1,
   "saleProduct": 20,
   "price": 30000,
   "finalprice": 24000,
@@ -635,23 +634,37 @@
   "weightProduct": "20 grams",
   "slug": "dry-mango",
   "category": "Snack & Spice",
-  "productSold": 0,
+  "productSold": 4,
   "user": {
     "$oid": "664c99d091f370270415c299"
   },
-  "reviews": [],
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "666ffff1fbf76c2e541899ca"
+      },
+      "rating": 4,
+      "comment": "Xoài thơm, dẻo, không quá ngọt nhưng hơi dai một chút ",
+      "user": {
+        "$oid": "664c9a1c91f370270415c29a"
+      },
+      "updatedAt": {
+        "$date": "2024-06-17T09:20:49.856Z"
+      }
+    }
+  ],
   "createdAt": {
     "$date": "2024-05-21T15:20:20.134Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T15:20:20.134Z"
+    "$date": "2024-06-18T04:06:16.520Z"
   },
   "__v": 0
 },{
   "_id": {
     "$oid": "664cbd28bd740d1f84d8443a"
   },
-  "ratingsProduct": 5,
+  "ratingsProduct": 4.5,
   "imagesProduct": [
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg",
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg",
@@ -660,8 +673,8 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305190/vv67m4oeelwgvs6ie6hd.jpg"
   ],
   "stock": 120,
-  "productSold": 334,
-  "numOfReviews": 0,
+  "productSold": 339,
+  "numOfReviews": 2,
   "saleProduct": 30,
   "price": 50000,
   "finalprice": 35000,
@@ -675,12 +688,39 @@
   "user": {
     "$oid": "664c99d091f370270415c299"
   },
-  "reviews": [],
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "666fffacfbf76c2e541899c9"
+      },
+      "rating": 5,
+      "comment": "Bơ ngon, thơm, không bị đắng. Lần sau sẽ ủng hộ shop tiếp :))",
+      "user": {
+        "$oid": "664c9a1c91f370270415c29a"
+      },
+      "updatedAt": {
+        "$date": "2024-06-17T09:19:40.543Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6670012efbf76c2e541899dc"
+      },
+      "rating": 4,
+      "comment": "Bơ ngon, ngậy nhưng hơi đắng nhẹ",
+      "user": {
+        "$oid": "6668769cbd213f3864310917"
+      },
+      "updatedAt": {
+        "$date": "2024-06-17T09:26:06.871Z"
+      }
+    }
+  ],
   "createdAt": {
     "$date": "2024-05-21T15:26:32.066Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T15:26:32.066Z"
+    "$date": "2024-06-18T04:06:22.975Z"
   },
   "__v": 0
 },{
@@ -695,7 +735,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305392/ybdo76znce1ooavhvmcl.jpg",
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716305392/ybdo76znce1ooavhvmcl.jpg"
   ],
-  "stock": 130,
+  "stock": 0,
   "productSold": 794,
   "numOfReviews": 0,
   "saleProduct": 20,
@@ -876,7 +916,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307377/xghscecj22nzsecqlgxf.webp"
   ],
   "stock": 102,
-  "productSold": 34,
+  "productSold": 35,
   "numOfReviews": 0,
   "saleProduct": 10,
   "price": 45000,
@@ -896,7 +936,7 @@
     "$date": "2024-05-21T16:02:59.419Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T16:02:59.419Z"
+    "$date": "2024-06-21T08:00:15.857Z"
   },
   "__v": 0
 },{
@@ -912,7 +952,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307478/no580pmjuwbn1ku1qtct.jpg"
   ],
   "stock": 135,
-  "productSold": 61,
+  "productSold": 62,
   "numOfReviews": 0,
   "saleProduct": 10,
   "price": 40000,
@@ -932,7 +972,7 @@
     "$date": "2024-05-21T16:04:42.428Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T16:04:42.428Z"
+    "$date": "2024-06-21T08:00:15.853Z"
   },
   "__v": 0
 },{
@@ -948,7 +988,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307623/zmxniegepdus3ns9znah.jpg"
   ],
   "stock": 148,
-  "productSold": 75,
+  "productSold": 76,
   "numOfReviews": 0,
   "saleProduct": 10,
   "price": 550000,
@@ -968,7 +1008,7 @@
     "$date": "2024-05-21T16:07:05.378Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T16:07:05.378Z"
+    "$date": "2024-06-21T08:00:22.589Z"
   },
   "__v": 0
 },{
@@ -984,7 +1024,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716307735/tqfwc2fw7vmiifpp9ypk.png"
   ],
   "stock": 113,
-  "productSold": 15,
+  "productSold": 18,
   "numOfReviews": 0,
   "saleProduct": 10,
   "price": 650000,
@@ -1004,7 +1044,7 @@
     "$date": "2024-05-21T16:08:57.111Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T16:08:57.111Z"
+    "$date": "2024-06-21T08:00:22.583Z"
   },
   "__v": 0
 },{
@@ -1056,7 +1096,7 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309050/e5rslgwi3mulmpipbtmp.jpg"
   ],
   "stock": 80,
-  "productSold": 169,
+  "productSold": 172,
   "numOfReviews": 0,
   "saleProduct": 10,
   "price": 650000,
@@ -1076,7 +1116,7 @@
     "$date": "2024-05-21T16:27:44.437Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T16:27:44.437Z"
+    "$date": "2024-06-21T08:00:22.586Z"
   },
   "__v": 0
 },{
@@ -1164,8 +1204,8 @@
     "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716309412/n6u2iowzpljf8g7mz8fw.jpg"
   ],
   "stock": 99,
-  "productSold": 999,
-  "numOfReviews": 0,
+  "productSold": 1000,
+  "numOfReviews": 1,
   "saleProduct": 10,
   "price": 50000,
   "finalprice": 45000,
@@ -1179,12 +1219,61 @@
   "user": {
     "$oid": "664c99d091f370270415c299"
   },
-  "reviews": [],
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "667532cbeb1f992b98f41374"
+      },
+      "rating": 5,
+      "comment": "Rau quả tươi, ngon ",
+      "user": {
+        "$oid": "6675313eeb1f992b98f41356"
+      },
+      "updatedAt": {
+        "$date": "2024-06-21T07:59:07.931Z"
+      }
+    }
+  ],
   "createdAt": {
     "$date": "2024-05-21T16:36:54.277Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T16:36:54.277Z"
+    "$date": "2024-06-21T08:00:22.585Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66753627eb1f992b98f41375"
+  },
+  "ratingsProduct": 0,
+  "imagesProduct": [
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1718957600/tvhfzs7xk5k8okfyuqof.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1718957602/vr2o56rrd8evagm6yzlr.jpg",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1718957603/zr8sc9acbcjn7zzd7ygl.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1718957605/pgbyh419srdfom4qufci.png",
+    "https://res.cloudinary.com/djdjwg9zz/image/upload/v1718957606/bd1x7svbh3usrg6um7zw.png"
+  ],
+  "productSold": 0,
+  "numOfReviews": 0,
+  "saleProduct": 15,
+  "price": 60000,
+  "finalprice": 51000,
+  "titleProduct": "Việt quất Happy",
+  "subTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure minus error doloribus saepe natus?",
+  "descriptionProduct": "<p style=\"text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using <span style=\"color: #2dc26b;\">'Content here, content here'</span>, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n<p style=\"text-align: justify;\">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from <span style=\"color: #2dc26b;\">\"de Finibus Bonorum et Malorum\"</span> by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>",
+  "brand": "Vinagarden",
+  "weightProduct": "300 grams",
+  "category": "Fruits & Vegetable",
+  "stock": 24,
+  "user": {
+    "$oid": "664c99d091f370270415c299"
+  },
+  "reviews": [],
+  "createdAt": {
+    "$date": "2024-06-21T08:13:27.303Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T08:13:27.303Z"
   },
   "__v": 0
 }]

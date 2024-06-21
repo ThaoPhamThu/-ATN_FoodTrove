@@ -3,18 +3,29 @@
     "$oid": "664c99d091f370270415c299"
   },
   "role": "admin",
-  "name": "admin",
-  "email": "foodtroveshop@gmail.com",
+  "name": "Admin",
+  "email": "phamthuthao13a22014.2015@gmail.com",
   "password": "$2a$10$W211JI32fYmfkwMPvfvvhukpdGxx5PHiLx442DRPkYiodQ78z2nJG",
   "phoneNumber": 981982917,
   "avatar": "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716296143/eqvl5uzhwfjo7cwbemu5.jpg",
-  "cart": [],
+  "cart": [
+    {
+      "_id": {
+        "$oid": "66744fe026b9a54210a302c4"
+      },
+      "product": {
+        "$oid": "664cc293bd740d1f84d8443f"
+      },
+      "quantity": 1,
+      "price": 33000
+    }
+  ],
   "isBlocked": false,
   "createdAt": {
     "$date": "2024-05-21T12:55:44.183Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T12:55:44.183Z"
+    "$date": "2024-06-20T15:50:56.089Z"
   },
   "__v": 0
 },{
@@ -23,35 +34,91 @@
   },
   "role": "user",
   "name": "Phạm Thu Thảo",
-  "email": "phamthuthao13a22014.2015@gmail.com",
+  "email": "thao@gmail.com",
   "password": "$2a$10$Oou4k1pKHYnunK1V9aMRWO4xLh8TVneIeR6HdG54jwzxTKsVg8OF.",
   "phoneNumber": 981982917,
   "avatar": "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716296219/r35ccusctdev7sjovpze.jpg",
-  "cart": [],
+  "cart": [
+    {
+      "_id": {
+        "$oid": "666fff83fbf76c2e541899c8"
+      },
+      "product": {
+        "$oid": "664cbd28bd740d1f84d8443a"
+      },
+      "quantity": 1,
+      "price": 35000
+    }
+  ],
   "isBlocked": false,
   "createdAt": {
     "$date": "2024-05-21T12:57:00.273Z"
   },
   "updatedAt": {
-    "$date": "2024-05-21T12:57:00.273Z"
+    "$date": "2024-06-17T09:18:59.252Z"
   },
-  "__v": 0
+  "__v": 0,
+  "address": "63 ngõ 2, Phương Mai, Hai Bà Trưng, Hà Nội"
 },{
   "_id": {
-    "$oid": "664ed060cbc9b25ab8595911"
+    "$oid": "6668769cbd213f3864310917"
   },
   "role": "user",
-  "name": "Son",
-  "email": "son@gmail.com",
+  "name": "Trần Thu Hoa",
+  "email": "hoa@gmail.com",
   "password": "$2a$10$Nshdj6wlhMkizPMM3gRfGOFG1B4BRUL1A326/Tidf4mGrCu6KiMym",
-  "phoneNumber": 243657,
-  "cart": [],
+  "phoneNumber": 975422317,
+  "cart": [
+    {
+      "_id": {
+        "$oid": "66700103fbf76c2e541899db"
+      },
+      "product": {
+        "$oid": "664cbd28bd740d1f84d8443a"
+      },
+      "quantity": 1,
+      "price": 35000
+    }
+  ],
   "isBlocked": false,
   "createdAt": {
     "$date": "2024-05-23T05:13:04.958Z"
   },
   "updatedAt": {
-    "$date": "2024-05-23T05:13:04.958Z"
+    "$date": "2024-06-17T09:25:23.564Z"
   },
-  "__v": 0
+  "__v": 0,
+  "address": "144 Trương Định, Hai Bà Trưng, Hà Nội"
+},{
+  "_id": {
+    "$oid": "6675313eeb1f992b98f41356"
+  },
+  "avatar": "https://res.cloudinary.com/djdjwg9zz/image/upload/v1716441301/vweuz5dzmz7fglnbgfy6.jpg",
+  "wishlist": [],
+  "isBlocked": false,
+  "role": "user",
+  "name": "Mai Hồng Sơn",
+  "email": "maihongsonn@gmail.com",
+  "password": "$2a$10$hqyQCmCG5f8iK779KVJVe.5YuoKebBqq5oJfcGlR7/MmYk0imoakK",
+  "phoneNumber": 955483565,
+  "cart": [
+    {
+      "_id": {
+        "$oid": "667532b6eb1f992b98f41373"
+      },
+      "product": {
+        "$oid": "664ccda6bd740d1f84d84448"
+      },
+      "quantity": 1,
+      "price": 45000
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-21T07:52:30.574Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T07:58:46.104Z"
+  },
+  "__v": 0,
+  "address": "199 Nguyễn Chí Thanh, Ba Đình, Hà Nội"
 }]

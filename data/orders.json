@@ -1,0 +1,538 @@
+[{
+  "_id": {
+    "$oid": "666ffeccfbf76c2e541899ba"
+  },
+  "orderStatus": "Successful Delivery",
+  "shippingInfor": {
+    "name": "Phạm Thu Thảo",
+    "address": "63 ngõ 2, Phương Mai, Hai Bà Trưng, Hà Nội",
+    "phoneNo": "0981982917"
+  },
+  "paymentMethod": "Cash On Delivery",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "666ffe5dfbf76c2e541899b7"
+      },
+      "product": {
+        "$oid": "664cbd28bd740d1f84d8443a"
+      },
+      "quantity": 1,
+      "price": 35000
+    },
+    {
+      "_id": {
+        "$oid": "666ffe6afbf76c2e541899b8"
+      },
+      "product": {
+        "$oid": "664ccb80bd740d1f84d84445"
+      },
+      "quantity": 1,
+      "price": 585000
+    },
+    {
+      "_id": {
+        "$oid": "666ffe6dfbf76c2e541899b9"
+      },
+      "product": {
+        "$oid": "664cc719bd740d1f84d84443"
+      },
+      "quantity": 1,
+      "price": 585000
+    }
+  ],
+  "totalPrice": 1205000,
+  "noteOrder": "Shop chọn bơ chín ăn được luôn giúp em với ạ :))",
+  "orderCode": "qxxBOh",
+  "orderBy": {
+    "$oid": "664c9a1c91f370270415c29a"
+  },
+  "createdAt": {
+    "$date": "2024-04-17T09:15:56.539Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:06:22.968Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-04-18T03:58:34.804Z"
+  }
+},{
+  "_id": {
+    "$oid": "666fff27fbf76c2e541899c0"
+  },
+  "orderStatus": "Successful Delivery",
+  "shippingInfor": {
+    "name": "Phạm Thu Thảo",
+    "address": "63 ngõ 2, Phương Mai, Hai Bà Trưng, Hà Nội",
+    "phoneNo": "0981982917"
+  },
+  "paymentMethod": "Payment By Paypal",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "666ffee6fbf76c2e541899be"
+      },
+      "product": {
+        "$oid": "664c9eac91f370270415c29d"
+      },
+      "quantity": 3,
+      "price": 150000
+    },
+    {
+      "_id": {
+        "$oid": "666ffef0fbf76c2e541899bf"
+      },
+      "product": {
+        "$oid": "664c9f7391f370270415c29e"
+      },
+      "quantity": 1,
+      "price": 80000
+    }
+  ],
+  "totalPrice": 530000,
+  "noteOrder": "",
+  "orderCode": "uBXGBh",
+  "orderBy": {
+    "$oid": "664c9a1c91f370270415c29a"
+  },
+  "createdAt": {
+    "$date": "2024-05-17T09:17:27.248Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-18T04:06:19.955Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-05-18T03:58:31.574Z"
+  }
+},{
+  "_id": {
+    "$oid": "666fff4cfbf76c2e541899c5"
+  },
+  "orderStatus": "Successful Delivery",
+  "shippingInfor": {
+    "name": "Phạm Thu Thảo",
+    "address": "63 ngõ 2, Phương Mai, Hai Bà Trưng, Hà Nội",
+    "phoneNo": "0981982917"
+  },
+  "paymentMethod": "Cash On Delivery",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "666fff33fbf76c2e541899c3"
+      },
+      "product": {
+        "$oid": "664cbbb49e9a852bd0666c4c"
+      },
+      "quantity": 2,
+      "price": 24000
+    },
+    {
+      "_id": {
+        "$oid": "666fff3cfbf76c2e541899c4"
+      },
+      "product": {
+        "$oid": "664cb11d91f370270415c2a5"
+      },
+      "quantity": 3,
+      "price": 40000
+    }
+  ],
+  "totalPrice": 168000,
+  "noteOrder": "",
+  "orderCode": "lIFt15",
+  "orderBy": {
+    "$oid": "664c9a1c91f370270415c29a"
+  },
+  "createdAt": {
+    "$date": "2024-05-17T09:18:04.353Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-18T04:06:16.513Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-05-18T03:57:56.017Z"
+  }
+},{
+  "_id": {
+    "$oid": "66700084fbf76c2e541899cf"
+  },
+  "orderStatus": "Successful Delivery",
+  "shippingInfor": {
+    "name": "Mai Hong Son",
+    "address": "144 Trương Định, Hai Bà Trưng, Hà Nội",
+    "phoneNo": "0975422317"
+  },
+  "paymentMethod": "Cash On Delivery",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "6670002cfbf76c2e541899cb"
+      },
+      "product": {
+        "$oid": "664cb98f91f370270415c2ac"
+      },
+      "quantity": 1,
+      "price": 255000
+    },
+    {
+      "_id": {
+        "$oid": "6670003afbf76c2e541899cc"
+      },
+      "product": {
+        "$oid": "664ca23f91f370270415c2a1"
+      },
+      "quantity": 1,
+      "price": 80000
+    },
+    {
+      "_id": {
+        "$oid": "6670004afbf76c2e541899ce"
+      },
+      "product": {
+        "$oid": "664ca16191f370270415c2a0"
+      },
+      "quantity": 2,
+      "price": 126000
+    }
+  ],
+  "totalPrice": 587000,
+  "noteOrder": "",
+  "orderCode": "rrTKEt",
+  "orderBy": {
+    "$oid": "6668769cbd213f3864310917"
+  },
+  "createdAt": {
+    "$date": "2024-03-17T09:23:16.970Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-18T04:06:13.670Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-03-18T03:58:26.761Z"
+  }
+},{
+  "_id": {
+    "$oid": "667000d7fbf76c2e541899d5"
+  },
+  "orderStatus": "Successful Delivery",
+  "shippingInfor": {
+    "name": "Mai Hong Son",
+    "address": "144 Trương Định, Hai Bà Trưng, Hà Nội",
+    "phoneNo": "0975422317"
+  },
+  "paymentMethod": "Payment By Paypal",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "66700097fbf76c2e541899d3"
+      },
+      "product": {
+        "$oid": "664cb73e91f370270415c2aa"
+      },
+      "quantity": 2,
+      "price": 25000
+    },
+    {
+      "_id": {
+        "$oid": "667000a2fbf76c2e541899d4"
+      },
+      "product": {
+        "$oid": "664c9f7391f370270415c29e"
+      },
+      "quantity": 1,
+      "price": 80000
+    }
+  ],
+  "totalPrice": 130000,
+  "noteOrder": "Shop chọn ớt nhỏ nhất có thể giúp mình với nhé!",
+  "orderCode": "nKQxg0",
+  "orderBy": {
+    "$oid": "6668769cbd213f3864310917"
+  },
+  "createdAt": {
+    "$date": "2024-05-17T09:24:39.439Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-18T04:06:10.468Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-05-18T03:59:15.137Z"
+  }
+},{
+  "_id": {
+    "$oid": "667000f8fbf76c2e541899d9"
+  },
+  "orderStatus": "Successful Delivery",
+  "shippingInfor": {
+    "name": "Mai Hong Son",
+    "address": "144 Trương Định, Hai Bà Trưng, Hà Nội",
+    "phoneNo": "0975422317"
+  },
+  "paymentMethod": "Cash On Delivery",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "667000e9fbf76c2e541899d8"
+      },
+      "product": {
+        "$oid": "664cbd28bd740d1f84d8443a"
+      },
+      "quantity": 1,
+      "price": 35000
+    }
+  ],
+  "totalPrice": 35000,
+  "noteOrder": "",
+  "orderCode": "jBNE00",
+  "orderBy": {
+    "$oid": "6668769cbd213f3864310917"
+  },
+  "createdAt": {
+    "$date": "2024-03-17T09:25:12.922Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T03:58:52.187Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-03-18T03:57:08.066Z"
+  }
+},{
+  "_id": {
+    "$oid": "667531a8eb1f992b98f4135a"
+  },
+  "orderStatus": "Processed-Delivered",
+  "shippingInfor": {
+    "name": "Mai Hồng Sơn",
+    "address": "199 Nguyễn Chí Thanh, Ba Đình, Hà Nội",
+    "phoneNo": "0955483565"
+  },
+  "paymentMethod": "Cash On Delivery",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "66753175eb1f992b98f41357"
+      },
+      "product": {
+        "$oid": "664cb98f91f370270415c2ac"
+      },
+      "quantity": 1,
+      "price": 255000
+    },
+    {
+      "_id": {
+        "$oid": "6675317beb1f992b98f41358"
+      },
+      "product": {
+        "$oid": "664cc5b3bd740d1f84d84440"
+      },
+      "quantity": 1,
+      "price": 40500
+    },
+    {
+      "_id": {
+        "$oid": "6675317deb1f992b98f41359"
+      },
+      "product": {
+        "$oid": "664cc61abd740d1f84d84441"
+      },
+      "quantity": 1,
+      "price": 36000
+    }
+  ],
+  "totalPrice": 331500,
+  "noteOrder": "",
+  "orderCode": "3GMNqC",
+  "orderBy": {
+    "$oid": "6675313eeb1f992b98f41356"
+  },
+  "createdAt": {
+    "$date": "2024-02-21T07:54:16.926Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T08:00:15.850Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-02-21T08:00:15.848Z"
+  }
+},{
+  "_id": {
+    "$oid": "667531f7eb1f992b98f41361"
+  },
+  "orderStatus": "Cancelled",
+  "shippingInfor": {
+    "name": "Mai Hồng Sơn",
+    "address": "199 Nguyễn Chí Thanh, Ba Đình, Hà Nội",
+    "phoneNo": "0955483565"
+  },
+  "paymentMethod": "Payment By Paypal",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "667531beeb1f992b98f4135e"
+      },
+      "product": {
+        "$oid": "664ca23f91f370270415c2a1"
+      },
+      "quantity": 1,
+      "price": 80000
+    },
+    {
+      "_id": {
+        "$oid": "667531c2eb1f992b98f4135f"
+      },
+      "product": {
+        "$oid": "664cc293bd740d1f84d8443f"
+      },
+      "quantity": 1,
+      "price": 33000
+    },
+    {
+      "_id": {
+        "$oid": "667531c6eb1f992b98f41360"
+      },
+      "product": {
+        "$oid": "664cbe91bd740d1f84d8443c"
+      },
+      "quantity": 1,
+      "price": 32000
+    }
+  ],
+  "totalPrice": 145000,
+  "noteOrder": "",
+  "orderCode": "2pLz47",
+  "orderBy": {
+    "$oid": "6675313eeb1f992b98f41356"
+  },
+  "createdAt": {
+    "$date": "2024-06-21T07:55:35.569Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T07:58:31.642Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6675321eeb1f992b98f41369"
+  },
+  "orderStatus": "Processed-Delivered",
+  "shippingInfor": {
+    "name": "Mai Hồng Sơn",
+    "address": "199 Nguyễn Chí Thanh, Ba Đình, Hà Nội",
+    "phoneNo": "0955483565"
+  },
+  "paymentMethod": "Cash On Delivery",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "6675320beb1f992b98f41365"
+      },
+      "product": {
+        "$oid": "664ccda6bd740d1f84d84448"
+      },
+      "quantity": 1,
+      "price": 45000
+    },
+    {
+      "_id": {
+        "$oid": "66753210eb1f992b98f41366"
+      },
+      "product": {
+        "$oid": "664ccb80bd740d1f84d84445"
+      },
+      "quantity": 1,
+      "price": 585000
+    },
+    {
+      "_id": {
+        "$oid": "66753212eb1f992b98f41367"
+      },
+      "product": {
+        "$oid": "664cc719bd740d1f84d84443"
+      },
+      "quantity": 1,
+      "price": 585000
+    },
+    {
+      "_id": {
+        "$oid": "66753213eb1f992b98f41368"
+      },
+      "product": {
+        "$oid": "664cc6a9bd740d1f84d84442"
+      },
+      "quantity": 1,
+      "price": 495000
+    }
+  ],
+  "totalPrice": 1710000,
+  "noteOrder": "",
+  "orderCode": "ZZ8MEg",
+  "orderBy": {
+    "$oid": "6675313eeb1f992b98f41356"
+  },
+  "createdAt": {
+    "$date": "2024-06-21T07:56:14.299Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T08:00:22.580Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-06-21T08:00:22.576Z"
+  }
+},{
+  "_id": {
+    "$oid": "66753283eb1f992b98f41370"
+  },
+  "orderStatus": "Processing",
+  "shippingInfor": {
+    "name": "Mai Hồng Sơn",
+    "address": "199 Nguyễn Chí Thanh, Ba Đình, Hà Nội",
+    "phoneNo": "0955483565"
+  },
+  "paymentMethod": "Payment By Paypal",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "6675325feb1f992b98f4136e"
+      },
+      "product": {
+        "$oid": "664ca01a91f370270415c29f"
+      },
+      "quantity": 3,
+      "price": 64000
+    },
+    {
+      "_id": {
+        "$oid": "66753269eb1f992b98f4136f"
+      },
+      "product": {
+        "$oid": "664c9e0291f370270415c29c"
+      },
+      "quantity": 3,
+      "price": 24000
+    }
+  ],
+  "totalPrice": 264000,
+  "noteOrder": "",
+  "orderCode": "9gHTsg",
+  "orderBy": {
+    "$oid": "6675313eeb1f992b98f41356"
+  },
+  "createdAt": {
+    "$date": "2024-06-21T07:57:55.441Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-21T08:00:25.923Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2024-06-21T08:00:02.617Z"
+  }
+}]

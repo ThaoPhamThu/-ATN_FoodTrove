@@ -36,6 +36,7 @@
     "nodemon": "2.0.6",
     "socket.io": "^4.7.5",
     "stripe": "8.128.0",
+    "uniqid": "^5.4.0",
     "validator": "13.1.17"
   }
 }

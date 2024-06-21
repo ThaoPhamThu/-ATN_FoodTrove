@@ -1,12 +1,12 @@
 const nodeMailer = require('nodemailer');
 
-const adminEmail = 'foodtroveshop@gmail.com';
-const adminPassword = 'uepo maau lole yaxn';
+const adminEmail = 'phamthuthao13a22014.2015@gmail.com';
+const adminPassword = 'rqxr dlhr dqxa iyur';
 
 const mailHost = 'smtp.gmail.com';
 const mailPort = 587;
 
-const sendMailCreateOrder = async (userOrder) => {
+const sendMail = async ({ email, subject, html }) => {
 
     const transporter = nodeMailer.createTransport({
         host: mailHost,
@@ -15,17 +15,17 @@ const sendMailCreateOrder = async (userOrder) => {
         auth: {
             user: adminEmail,
             pass: adminPassword
-          }
+        }
     });
 
 
     const options = {
         from: adminEmail, // địa chỉ admin email bạn dùng để gửi
-        to: userOrder, // địa chỉ gửi đến
-        subject: 'BẠN ĐÃ ĐẶT HÀNG THÀNH CÔNG', // Tiêu đề của mail
-        html: '<b>Hello World</b>'
+        to: email, // địa chỉ gửi đến
+        subject: subject, // Tiêu đề của mail
+        html: html
     };
-    
- await transporter.sendMail(options)
+
+    await transporter.sendMail(options)
 }
-module.exports = {sendMailCreateOrder}
+module.exports = { sendMail }

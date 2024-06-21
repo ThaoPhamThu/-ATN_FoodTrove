@@ -1,34 +1,48 @@
 const mongoose = require('mongoose')
 
-const orderSchema = mongoose.Schema({
+const orderSchema = new mongoose.Schema({
+    shippingInfor: {
+        address: {
+            type: String,
+            required: true
+        },
+        phoneNo: {
+            type: String,
+        },
+        name: {
+            type: String
+        },
+    },
     orderItems: [
         {
             quantity: Number,
             price: Number,
             product: {
                 type: mongoose.Schema.Types.ObjectId,
-                ref: 'Product'
+                ref: 'product'
             }
         }
     ],
     paymentMethod: {
         type: String,
-        default: 'Thanh toán bằng VNPay',
+        required: true,
         enum: {
             values: [
                 'Cash On Delivery',
-                'Thanh toán bằng VNPay',
+                'Payment By Paypal',
             ],
-            message: 'Vui lòng chọn đúng phương thức thanh toán'
+            message: 'Please select payment method!'
 
         },
     },
+    orderCode: String,
     totalPrice: Number,
     orderStatus: {
         type: String,
-        enum: ['Cancelled', 'Proccessing', 'Successed'],
-        default: 'Proccessing'
+        enum: ['Cancelled', 'Processing', 'Processed-Delivered', 'Successful Delivery'],
+        default: 'Processing'
     },
+    noteOrder: String,
     orderBy: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'
@@ -40,6 +54,9 @@ const orderSchema = mongoose.Schema({
 },
     {
         timestamps: true
-    })
+    }
+)
 
-module.exports = mongoose.model('Order', orderSchema)
+
+const Order = mongoose.model('order', orderSchema);
+module.exports = Order;
