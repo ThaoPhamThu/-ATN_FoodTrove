@@ -23,7 +23,7 @@ exports.authorizeRoles = (...roles) => {
     return (req, res, next) => {
         if (!roles.includes(req.user.role)) {
             return next(
-                new ErrorHandler(`(${req.user.role}) không có quyền truy cập tài nguyên này`, 403))
+                new ErrorHandler(`(${req.user.role}) do not have permission to access this resource`, 403))
         }
         next()
     }

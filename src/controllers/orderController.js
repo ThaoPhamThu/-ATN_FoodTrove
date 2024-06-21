@@ -38,7 +38,7 @@ const newOrder = catchAsyncErrors(async (req, res, next) => {
     const order = await Order.create(data);
     const userOrder = req.user.email;
     const subject = 'Order Success'
-    const html = ''
+    const html = 'Thank you for your order, we will send the goods to you as soon as possible.'
     if (order) {
         await sendMail({ email: userOrder, html: html, subject: subject });
     }

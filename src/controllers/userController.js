@@ -1,6 +1,5 @@
 const User = require('../models/userModel');
 const Product = require('../models/productModel');
-const Order = require('../models/orderModel');
 const ErrorHandler = require('../utils/errorHandler');
 const catchAsyncErrors = require('../middlewares/catchAsyncErrors');
 const sendToken = require('../utils/jwtToken');
@@ -52,17 +51,17 @@ const loginUser = catchAsyncErrors(async (req, res, next) => {
     const { email, password } = req.body;
 
     if (!email || !password) {
-        return next(new ErrorHandler('Email và Mật khẩu không được để trống', 400))
+        return next(new ErrorHandler('Missing input', 400))
     }
     const user = await User.findOne({ email }).select('+password')
 
     if (!user) {
-        return next(new ErrorHandler('Email không tồn tại', 401));
+        return next(new ErrorHandler('Email does not exist', 401));
     }
     const isPasswordMatched = await user.comparePassword(password);
 
     if (!isPasswordMatched) {
-        return next(new ErrorHandler('Mật khẩu không đúng', 401));
+        return next(new ErrorHandler('Incorrect password', 401));
     }
 
     sendToken(user, 200, res)
@@ -76,7 +75,7 @@ const logoutUser = catchAsyncErrors(async (req, res, next) => {
 
     res.status(200).json({
         success: true,
-        message: 'Đã đăng xuất'
+        message: 'Signed out'
     })
 });
 

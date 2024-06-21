@@ -122,7 +122,7 @@ const getProductDetail = catchAsyncErrors(async (req, res, next) => {
     });
 
     if (!product) {
-        return next(new ErrorHandler('Không tìm thấy sản phẩm', 404));
+        return next(new ErrorHandler('Not found product', 404));
     }
 
 
@@ -138,7 +138,7 @@ const updateProduct = catchAsyncErrors(async (req, res, next) => {
     let product = await Product.findById(req.params.pid);
 
     if (!product) {
-        return next(new ErrorHandler('Không tìm thấy sản phẩm', 404));
+        return next(new ErrorHandler('Not found product', 404));
     }
 
     let results = []
@@ -190,7 +190,7 @@ const deleteProduct = catchAsyncErrors(async (req, res, next) => {
     const product = await Product.findById(req.params.pid);
     console.log(product)
     if (!product) {
-        return next(new ErrorHandler('Không tìm thấy sản phẩm', 404));
+        return next(new ErrorHandler('Not found product', 404));
     }
 
     const deleteProduct = await Product.findByIdAndDelete(req.params.pid)
@@ -249,7 +249,7 @@ const getProductReviews = catchAsyncErrors(async (req, res, next) => {
         })
     } catch (error) {
         res.status(200).json({
-            message: 'Không tìm thấy review với id'
+            message: 'Not found review'
         })
     }
 });
